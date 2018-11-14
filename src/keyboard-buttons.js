@@ -10,6 +10,7 @@ module.exports = {
         site_1: 'Сайт услуг',
         site_2: 'Интернет магазин',
         site_3: 'Портал',
+        site_4: 'Калькулятор',
 
     },
     ppc_price: {
@@ -17,7 +18,7 @@ module.exports = {
         price_2: 'Стандартный',
         price_3: 'Расширенный',
         price_4: 'Эксклюзивный',
-},
+    },
     audit_price: {
         audit_seo: 'SEO Аудит',
         audit_ppc: 'Аудит контекстной рекламы',

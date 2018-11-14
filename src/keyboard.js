@@ -9,6 +9,7 @@ module.exports = {
     seo_prices: [
         [kb.seo_price.site_1],
         [kb.seo_price.site_2, kb.seo_price.site_3],
+        [kb.seo_price.site_4],
         [kb.back]
     ],
     ppc_prices: [

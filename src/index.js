@@ -4,6 +4,10 @@ const helper = require('./helper.js')
 const keyboard = require('./keyboard')
 const kb = require('./keyboard-buttons')
 const fs = require('fs')
+const Promise = require('bluebird')
+Promise.config({
+    cancellation: true
+})
 
 helper.logStart()
 
@@ -26,8 +30,8 @@ bot.on('message', msg => {
         case kb.seo_price.site_1:
 
             bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/site1.png')).then(() => {
-            // bot.sendMessage(chatId, 'Заказать продвижение сайта услуг https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
-            // })
+                // bot.sendMessage(chatId, 'Заказать продвижение сайта услуг https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
+                // })
                 bot.sendMessage(chatId, 'Для заказа нажмите на кнопку', {
                     reply_markup: {
                         inline_keyboard: [
@@ -65,9 +69,9 @@ bot.on('message', msg => {
                             ],
                             [
                                 {
-                                text: 'Задать вопрос',
-                                url: 'https://t.me/LapkinLAb'
-                            }
+                                    text: 'Задать вопрос',
+                                    url: 'https://t.me/LapkinLAb'
+                                }
                             ],
 
                         ]
@@ -86,6 +90,31 @@ bot.on('message', msg => {
                                 {
                                     text: 'Подробнее',
                                     url: 'https://msk.lapkinlab.ru'
+                                }
+                            ],
+                            [
+                                {
+                                    text: 'Задать вопрос',
+                                    url: 'https://t.me/LapkinLAb'
+                                }
+                            ],
+
+                        ]
+                    }
+                })
+            })
+            break
+        case kb.seo_price.site_4:
+            // bot.sendMessage(chatId, 'https://msk.lapkinlab.ru/seo')
+            bot.sendPhoto(chatId, fs.readFileSync(__dirname + '/site4.png')).then(() => {
+                // bot.sendMessage(chatId, 'Заказать продвижение интернет портала https://msk.lapkinlab.ru/#form_zakaz_seo_servicev')
+                bot.sendMessage(chatId, 'Для расчета стоимости продвижения нажмите на кнопку', {
+                    reply_markup: {
+                        inline_keyboard: [
+                            [
+                                {
+                                    text: 'Рассчитать стоимость SEO',
+                                    url: 'https://msk.lapkinlab.ru/#cccallk'
                                 }
                             ],
                             [
@@ -406,7 +435,7 @@ bot.on('message', msg => {
         case kb.back:
             bot.sendMessage(chatId, 'Какая услуга Вас интересует?', {
                 reply_markup: {keyboard: keyboard.home}
-})
+            })
             break
     }
 
