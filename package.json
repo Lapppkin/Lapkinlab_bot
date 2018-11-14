@@ -1,10 +1,9 @@
 {
   "name": "lapkinlab_bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js &",
+    "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js"
   },
   "author": "",
@@ -13,6 +12,15 @@
     "node-telegram-bot-api": "^0.29.0"
   },
   "devDependencies": {
-    "nodemon": "^1.12.5"
-  }
+    "nodemon": "^1.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lapppkin/Lapkinlab_bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lapppkin/Lapkinlab_bot/issues"
+  },
+  "homepage": "https://github.com/Lapppkin/Lapkinlab_bot#readme",
+  "description": ""
 }
