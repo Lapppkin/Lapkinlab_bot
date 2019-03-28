@@ -44,7 +44,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -70,7 +70,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -95,7 +95,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -120,7 +120,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -150,7 +150,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -174,7 +174,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -198,7 +198,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -223,7 +223,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -253,7 +253,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -277,7 +277,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -301,7 +301,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
 
@@ -325,7 +325,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
                             [
@@ -367,7 +367,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Задать вопрос',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ],
                             [
@@ -398,7 +398,7 @@ bot.on('message', msg => {
                             [
                                 {
                                     text: 'Оставить заявку',
-                                    url: 'https://t.me/LapkinLAb'
+                                    url: 'https://t.me/LapkinLAb_Agency_bot'
                                 }
                             ]
 
